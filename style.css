@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  display: flex;
+  display: flex; /* Main container uses flexbox */
   flex-wrap: wrap;
   min-height: 100vh;
   align-items: center;
@@ -23,7 +23,7 @@ body {
 
 .left,
 .right {
-  flex: 1;
+  flex: 0 0 50%; /* Set flex basis to equally distribute space */
   padding: 20px;
 }
 
@@ -34,9 +34,7 @@ body {
 }
 
 .right {
-  max-width: 500px;
-  padding-right: 10%;
-  padding-left: 0;
+  max-width: unset; /* Remove max-width to allow text to fill space */
 }
 
 .graphic img {
