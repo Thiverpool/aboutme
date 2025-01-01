@@ -173,7 +173,7 @@ section {
   text-align: center;
 }
 
-.section__text__p2 {
+.section__text__p2 {. #markdown
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
