@@ -5,11 +5,3 @@ function toggleMenu() {
     icon.classList.toggle("open");
   }
 
-
-html {
-
-scroll-behavior: smooth;
-
-
-}
-
