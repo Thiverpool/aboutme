@@ -47,6 +47,9 @@
   }
 }
 
+wp_enqueue_style( string $handle,
+string $src = ”, string[] $deps = array(), string|bool|null $ver = false, string $media = ‘all’ )
+
 @media screen and (max-width: 600px) {
   #contact,
   footer {
